@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Croon &#45; Create Account</title>
+        <meta charset = "utf-8">
+    </head>
+    <body>
+        <h2>Creating an account in Croon</h2>
+        <form>
+            <fieldset>
+                <legend>Username/Password</legend>
+                <ul>
+                    <li>
+                        <label for = "id">Username</label>
+                        <input type = "text" id = "id" size = "10" maxlength = "20" autofocus required required>
+                        <button type = "submit" id = "id_sumbit">check</button>
+                    </li>
+                    <li>
+                        <label for = "pw">Password</label>
+                        <input type = "password" id = "pw" size = "10" maxlength="20" required>
+                        <button type = "submit" id = "pw_sumbit">check</button>
+                    </li>
+                </ul>            
+            </fieldset>
+            <fieldset>
+                <legend>User Information</legend>
+                <ul>
+                    <li>
+                        <label for = "first_name">First Name</label>
+                        <input type = "text" id = "first_name" required>
+                        <label for = "last_name">Last Name&#40;Family Name&#41;</label>
+                        <input type = "text" id = "last_name" required>
+                    </li>
+                    <li>
+                        <label for = "phone_num">Telephone Number</label>
+                        <input type = "tel" id = "phone_num">
+                        <button type = "submit" id = "phone_num_sumbit">check</button>
+                    </li>
+                    <li>
+                        <label for = "em_addr">E&#45;Mail Address</label>
+                        <input type = "email" id = "em_addr">
+                        <button type = "submit" id = "em_addr_sumbit">check</button>
+                    </li>
+                </ul>
+            </fieldset>
+            <fieldset>
+                <h4>Terms of Agreement</h4>
+                <textarea name = "Terms_of_Agreement" cols = "100" rows = "15" readonly>
+                    To be prepared soon.
+                </textarea>
+                <p>I agree with the above Terms of Agreemnt</p>
+                <label><input type = "radio" name = "agreement_yes" value = "1">Yes</label>
+                <label><input type = "radio" name = "agreement_no" value = "0">No</label>
+            </fieldset>
+        </form>
+    </body>
+</html>
