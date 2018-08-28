@@ -1,18 +1,55 @@
 <!doctype html>
 <html>
-    <head>
-        <title>Croon - Sentiment Sharing Service</title>
-        <meta charset = "utf-8">
-        <meta name = "description" content = "Webpage of Croon, the Sentiment Sharing Service">
-    </head>
-    <body>
-        <h1>Croon - Sentiment Sharing Service</h1>
-        <img src = "images/IMG_9476.PNG" width = "600" height = "450">
-        <h2>Menu</h2>
-        <ul>
-            <li><a href = "http://croon.dothome.co.kr/profile.html">Profile</a></li>
-            <li><a href = "http://croon.dothome.co.kr/description.html">Description</a></li>
-            <li><a href = "http://croon.dothome.co.kr/create_account.html">Create Account</a></li>
-        </ul>
-    </body>
+<head>
+    <title>Croon | Sentiment Sharing Service</title>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <!-- googlefont_Lato-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- googlefont_GothicA1-->
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+    <!-- googlefont_Abel-->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href = "index.css">
+    <script language="javascript"> //Go to Mobile Page
+            // Mobile여부를 구분하기 위함
+            var uAgent = navigator.userAgent.toLowerCase();  
+        
+            // 아래는 모바일 장치들의 모바일 페이지 접속을위한 스크립트
+            var mobilePhones = new Array('iphone', 'ipod', 'ipad', 'android', 'blackberry', 'windows ce','nokia', 'webos', 'opera mini', 'sonyericsson', 'opera mobi', 'iemobile');
+            for (var i = 0; i < mobilePhones.length; i++)
+                if (uAgent.indexOf(mobilePhones[i]) != -1)
+                   document.location = "http://croon.dothome.co.kr/m";
+    </script>
+    <!-- prefixfree from http://leaverou.github.io/prefixfree/ -->
+    <script src = "prefixfree.min.js"></script>
+</head>
+<body>
+<div class = "container">
+    <header>
+        <div class = "title">
+            <a href="http://croon.dothome.co.kr" target="_self">croon</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href = "http://croon.dothome.co.kr/about" target="_self">About</a></li>
+                <li><a href = "http://croon.dothome.co.kr/values" target="_self">Values</a></li>
+                <li><a href = "http://croon.dothome.co.kr/contents" target="_self">Contents</a></li>
+                <li><a href = "http://croon.dothome.co.kr/opinion" target="_self">Opinion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class = "index_section">
+        <article>
+            <iframe title="video for testing" width="950" height="530" src="https://www.youtube.com/embed/rrlJiKFJSQY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+            <p class = "videodescription">This is a commercial video made by <strong>Facebook</strong>, posted here just for testing html video. This is <strong>NOT our video</strong>.</p>
+        </article>
+    </section>
+    <footer>
+        <p>© by Seung Youl Oh of Croon. We have not incorporated yet.</p>
+    </footer>
+    <div class = "push"></div>
+</div>
+
+</body>
 </html>

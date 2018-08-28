@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+    <title>Croon | Opinion</title>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1">
+    <!-- googlefont_Lato-->
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <!-- googlefont_GothicA1-->
+    <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+    <!-- googlefont_Abel-->
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
+    <link rel="stylesheet" href = "index.css">
+    <!-- prefixfree from http://leaverou.github.io/prefixfree/ -->
+    <script src = "prefixfree.min.js"></script>
+</head>
+
+<body>
+<div class = "container">
+    <header>
+        <div class = "title">
+            <a href="http://croon.dothome.co.kr" target="_self">croon</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href = "http://croon.dothome.co.kr/about" target="_self">About</a></li>
+                <li><a href = "http://croon.dothome.co.kr/values" target="_self">Values</a></li>
+                <li><a href = "http://croon.dothome.co.kr/contents" target="_self">Contents</a></li>
+                <li><a href = "http://croon.dothome.co.kr/opinion" target="_self">Opinion</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class = "about_section">
+        <article class = "contents">
+            <p class = "p_style">Opinion</p>
+            <h1>What do you think?</h1>
+            <figure>
+                <img src = "images/Croon_Opinion.png" width = "768px" height = "220px" alt = "opinion_img" class = "op_img"
+                usemap = "#opinionMap">
+                <map name = "opinionMap">
+                    <area shape = "rect" coords = "15, 170, 95, 210" href = "https://www.facebook.com/john.oh.961" alt = "ceo_facebook_link" target = "_blank">
+                </map>
+           </figure>
+           <p class = "p_contents">croon은 아직 아이디어 단계입니다. 앞서 말씀드린, 저희가 믿는 가치를 실현하기 위해 여러 기능과 컨텐츠를 생각해봤습니다. 앞으로 계속 개선해나가겠지만, 저희 서비스의 가치와 컨셉에 공감하시는 분들의 다양한 의견을 듣고 싶습니다.</p>
+           <p class = "p_contents">croon을 더 멋지게 만들 아이디어가 있으시거나, croon에 대해서 궁금한 점이 있으시거나, 아니면 croon 어플이 완성되는대로 받아서 사용해보고 싶으신 분들은, 아래의 연락처로 이메일 주소 또는 핸드폰 번호를 남겨주시면 감사하겠습니다. 연락을 통해 지속적으로 업데이트 사항에 대해 알려드리도록 하겠습니다.</p>
+           <p class = "p_contents">감사합니다.</p>
+           <p class = "p_contents">E-mail : tmdduf430@naver.com<br>Tel. : 010 - 8397 - 0430</p>
+
+        </article>
+    </section>
+    <footer>
+        <p>© by Seung Youl Oh of Croon. We have not incorporated yet.</p>
+    </footer>
+</div>
+</body>
+</html>
