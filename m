@@ -3,7 +3,7 @@
 <head>
     <title>Croon | Sentiment Sharing Service</title>
     <meta charset="utf-8">
-    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, user-scalable = no">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
     <link rel = "stylesheet" href = "m.css">
     <!-- prefixfree from http://leaverou.github.io/prefixfree/ -->
     <script src = "prefixfree.min.js"></script>
@@ -42,7 +42,7 @@
                     <iframe title="video for testing" src="https://www.youtube.com/embed/rrlJiKFJSQY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                 </div>
                 <p>This is a commercial video made by <strong>Facebook</strong>, posted here just for testing html video. This is <strong>NOT our video</strong>.</p>
-                <a href = #feed id = "arrow">
+                <a href = #sound_mix id = "arrow">
                     <img src = "images/arrow_icon.png">
                 </a>
             </article>
